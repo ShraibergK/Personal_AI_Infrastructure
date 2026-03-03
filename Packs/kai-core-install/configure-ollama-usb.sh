@@ -2,7 +2,7 @@
 
 set -e
 
-OLLAMA_MODELS_PATH="/media/kaishraiberg/LLM/.ollama/models"
+OLLAMA_MODELS_PATH="/mnt/0CD64552D6453CE8"
 SERVICE_FILE="/etc/systemd/system/ollama.service"
 BACKUP_FILE="/etc/systemd/system/ollama.service.backup.$(date +%Y%m%d_%H%M%S)"
 
